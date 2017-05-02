@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.LoginPage"
+             xmlns:xamarinNativeFacebook="clr-namespace:App1.Custom.ButtonCustom;assembly=App1"
+             Title="LoginPage">
+  <ScrollView>
+    <StackLayout Padding="10">
+            <xamarinNativeFacebook:FacebookLoginButtonCustom 
+                BackgroundColor="Navy"  
+                WidthRequest="240" 
+                Text="Facebook Login"  
+                TextColor="White"  
+                HorizontalOptions="Center">
+            </xamarinNativeFacebook:FacebookLoginButtonCustom>
+
+        </StackLayout>
+  </ScrollView>
+</ContentPage>

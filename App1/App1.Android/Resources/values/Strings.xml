@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-  <string name="app_name">IPet</string>
-  <string name="app_id">187336141719056</string>
+  <string name="app_name">{app_name}</string>
+  <string name="app_id">{app_id}</string>
 </resources>
